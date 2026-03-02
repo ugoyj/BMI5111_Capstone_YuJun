@@ -1,11 +1,11 @@
 column,missing_rate,dtype
-gender,0.6009463722397477,str
-next_hosp,0.09016824395373291,float64
-cesd,0.062127584998247457,float64
-adl_any,0.014808973010865756,float64
-hosp,0.0014896600070101647,float64
-hhidpn,0.0,int64
+cesd,0.18671478669435837,float64
+edu_years,0.00248544482652957,float64
 wave,0.0,int64
+hhidpn,0.0,int64
+gender,0.0,str
 age,0.0,float64
 diabetes,0.0,float64
+adl_any,0.0,int64
+hosp,0.0,float64
 high_risk,0.0,int64
