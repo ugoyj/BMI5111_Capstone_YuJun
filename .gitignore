@@ -1,0 +1,6 @@
+data_raw/
+*.zip
+*.dta
+*.log
+__pycache__/
+.ipynb_checkpoints/
