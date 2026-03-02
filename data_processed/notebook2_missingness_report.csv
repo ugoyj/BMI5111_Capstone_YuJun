@@ -1,11 +1,583 @@
-column,missing_rate,dtype
-cesd,0.18671478669435837,float64
-edu_years,0.00248544482652957,float64
-wave,0.0,int64
-hhidpn,0.0,int64
-gender,0.0,str
-age,0.0,float64
-diabetes,0.0,float64
-adl_any,0.0,int64
-hosp,0.0,float64
-high_risk,0.0,int64
+source,metric,column,group_by,group,n,missing_rate
+baseline_df,overall_missing_rate,hhidpn,ALL,ALL,29371,0.0
+baseline_df,overall_missing_rate,wave,ALL,ALL,29371,0.0
+baseline_df,overall_missing_rate,age,ALL,ALL,29371,0.0
+baseline_df,overall_missing_rate,gender,ALL,ALL,29371,0.0
+baseline_df,overall_missing_rate,edu_years,ALL,ALL,29371,0.00030642470464063194
+baseline_df,overall_missing_rate,diabetes,ALL,ALL,29371,0.0024513976371250555
+baseline_df,overall_missing_rate,adl_any,ALL,ALL,29371,0.0016683122808212182
+baseline_df,overall_missing_rate,cesd,ALL,ALL,29371,0.18671478669435837
+baseline_df,overall_missing_rate,hosp,ALL,ALL,29371,0.011201525314085322
+baseline_df,overall_missing_rate,high_risk,ALL,ALL,29371,0.0
+baseline_df,overall_missing_rate,age_band,ALL,ALL,29371,0.0
+baseline_df,missing_rate_by_group,hhidpn,gender,1,12851,0.0
+baseline_df,missing_rate_by_group,hhidpn,gender,2,16520,0.0
+baseline_df,missing_rate_by_group,wave,gender,1,12851,0.0
+baseline_df,missing_rate_by_group,wave,gender,2,16520,0.0
+baseline_df,missing_rate_by_group,age,gender,1,12851,0.0
+baseline_df,missing_rate_by_group,age,gender,2,16520,0.0
+baseline_df,missing_rate_by_group,gender,gender,1,12851,0.0
+baseline_df,missing_rate_by_group,gender,gender,2,16520,0.0
+baseline_df,missing_rate_by_group,edu_years,gender,1,12851,0.000466889736207299
+baseline_df,missing_rate_by_group,edu_years,gender,2,16520,0.00018159806295399514
+baseline_df,missing_rate_by_group,diabetes,gender,1,12851,0.002879153373278344
+baseline_df,missing_rate_by_group,diabetes,gender,2,16520,0.00211864406779661
+baseline_df,missing_rate_by_group,adl_any,gender,1,12851,0.0036573029336238426
+baseline_df,missing_rate_by_group,adl_any,gender,2,16520,0.00012106537530266344
+baseline_df,missing_rate_by_group,cesd,gender,1,12851,0.1869115243949887
+baseline_df,missing_rate_by_group,cesd,gender,2,16520,0.18656174334140435
+baseline_df,missing_rate_by_group,hosp,gender,1,12851,0.010115944284491479
+baseline_df,missing_rate_by_group,hosp,gender,2,16520,0.012046004842615012
+baseline_df,missing_rate_by_group,high_risk,gender,1,12851,0.0
+baseline_df,missing_rate_by_group,high_risk,gender,2,16520,0.0
+baseline_df,missing_rate_by_group,hhidpn,age_band,"[65, 70)",5583,0.0
+baseline_df,missing_rate_by_group,hhidpn,age_band,"[70, 75)",5411,0.0
+baseline_df,missing_rate_by_group,hhidpn,age_band,"[75, 80)",5235,0.0
+baseline_df,missing_rate_by_group,hhidpn,age_band,"[80, 85)",5463,0.0
+baseline_df,missing_rate_by_group,hhidpn,age_band,"[85, 200)",7679,0.0
+baseline_df,missing_rate_by_group,wave,age_band,"[65, 70)",5583,0.0
+baseline_df,missing_rate_by_group,wave,age_band,"[70, 75)",5411,0.0
+baseline_df,missing_rate_by_group,wave,age_band,"[75, 80)",5235,0.0
+baseline_df,missing_rate_by_group,wave,age_band,"[80, 85)",5463,0.0
+baseline_df,missing_rate_by_group,wave,age_band,"[85, 200)",7679,0.0
+baseline_df,missing_rate_by_group,age,age_band,"[65, 70)",5583,0.0
+baseline_df,missing_rate_by_group,age,age_band,"[70, 75)",5411,0.0
+baseline_df,missing_rate_by_group,age,age_band,"[75, 80)",5235,0.0
+baseline_df,missing_rate_by_group,age,age_band,"[80, 85)",5463,0.0
+baseline_df,missing_rate_by_group,age,age_band,"[85, 200)",7679,0.0
+baseline_df,missing_rate_by_group,gender,age_band,"[65, 70)",5583,0.0
+baseline_df,missing_rate_by_group,gender,age_band,"[70, 75)",5411,0.0
+baseline_df,missing_rate_by_group,gender,age_band,"[75, 80)",5235,0.0
+baseline_df,missing_rate_by_group,gender,age_band,"[80, 85)",5463,0.0
+baseline_df,missing_rate_by_group,gender,age_band,"[85, 200)",7679,0.0
+baseline_df,missing_rate_by_group,edu_years,age_band,"[65, 70)",5583,0.0007164606842199534
+baseline_df,missing_rate_by_group,edu_years,age_band,"[70, 75)",5411,0.00018480872297172427
+baseline_df,missing_rate_by_group,edu_years,age_band,"[75, 80)",5235,0.00038204393505253105
+baseline_df,missing_rate_by_group,edu_years,age_band,"[80, 85)",5463,0.0
+baseline_df,missing_rate_by_group,edu_years,age_band,"[85, 200)",7679,0.0002604505795025394
+baseline_df,missing_rate_by_group,diabetes,age_band,"[65, 70)",5583,0.004298764105319721
+baseline_df,missing_rate_by_group,diabetes,age_band,"[70, 75)",5411,0.00129366106080207
+baseline_df,missing_rate_by_group,diabetes,age_band,"[75, 80)",5235,0.0019102196752626551
+baseline_df,missing_rate_by_group,diabetes,age_band,"[80, 85)",5463,0.0014643968515467693
+baseline_df,missing_rate_by_group,diabetes,age_band,"[85, 200)",7679,0.0029951816642792032
+baseline_df,missing_rate_by_group,adl_any,age_band,"[65, 70)",5583,0.005194339960594662
+baseline_df,missing_rate_by_group,adl_any,age_band,"[70, 75)",5411,0.0031417482905193124
+baseline_df,missing_rate_by_group,adl_any,age_band,"[75, 80)",5235,0.00019102196752626553
+baseline_df,missing_rate_by_group,adl_any,age_band,"[80, 85)",5463,0.00018304960644334616
+baseline_df,missing_rate_by_group,adl_any,age_band,"[85, 200)",7679,0.0001302252897512697
+baseline_df,missing_rate_by_group,cesd,age_band,"[65, 70)",5583,0.08507970625111946
+baseline_df,missing_rate_by_group,cesd,age_band,"[70, 75)",5411,0.10940676399926076
+baseline_df,missing_rate_by_group,cesd,age_band,"[75, 80)",5235,0.15606494746895894
+baseline_df,missing_rate_by_group,cesd,age_band,"[80, 85)",5463,0.19348343401061688
+baseline_df,missing_rate_by_group,cesd,age_band,"[85, 200)",7679,0.3311629118374788
+baseline_df,missing_rate_by_group,hosp,age_band,"[65, 70)",5583,0.011463370947519255
+baseline_df,missing_rate_by_group,hosp,age_band,"[70, 75)",5411,0.008501201256699316
+baseline_df,missing_rate_by_group,hosp,age_band,"[75, 80)",5235,0.010888252148997135
+baseline_df,missing_rate_by_group,hosp,age_band,"[80, 85)",5463,0.01043382756727073
+baseline_df,missing_rate_by_group,hosp,age_band,"[85, 200)",7679,0.013673655423883319
+baseline_df,missing_rate_by_group,high_risk,age_band,"[65, 70)",5583,0.0
+baseline_df,missing_rate_by_group,high_risk,age_band,"[70, 75)",5411,0.0
+baseline_df,missing_rate_by_group,high_risk,age_band,"[75, 80)",5235,0.0
+baseline_df,missing_rate_by_group,high_risk,age_band,"[80, 85)",5463,0.0
+baseline_df,missing_rate_by_group,high_risk,age_band,"[85, 200)",7679,0.0
+baseline_df,missing_rate_by_group,hhidpn,high_risk,0,12055,0.0
+baseline_df,missing_rate_by_group,hhidpn,high_risk,1,17316,0.0
+baseline_df,missing_rate_by_group,wave,high_risk,0,12055,0.0
+baseline_df,missing_rate_by_group,wave,high_risk,1,17316,0.0
+baseline_df,missing_rate_by_group,age,high_risk,0,12055,0.0
+baseline_df,missing_rate_by_group,age,high_risk,1,17316,0.0
+baseline_df,missing_rate_by_group,gender,high_risk,0,12055,0.0
+baseline_df,missing_rate_by_group,gender,high_risk,1,17316,0.0
+baseline_df,missing_rate_by_group,edu_years,high_risk,0,12055,0.00033181252592285357
+baseline_df,missing_rate_by_group,edu_years,high_risk,1,17316,0.00028875028875028876
+baseline_df,missing_rate_by_group,diabetes,high_risk,0,12055,0.0024056408129406884
+baseline_df,missing_rate_by_group,diabetes,high_risk,1,17316,0.002483252483252483
+baseline_df,missing_rate_by_group,adl_any,high_risk,0,12055,0.0033181252592285357
+baseline_df,missing_rate_by_group,adl_any,high_risk,1,17316,0.0005197505197505198
+baseline_df,missing_rate_by_group,cesd,high_risk,0,12055,0.09655744504355039
+baseline_df,missing_rate_by_group,cesd,high_risk,1,17316,0.2494802494802495
+baseline_df,missing_rate_by_group,hosp,high_risk,0,12055,0.011198672749896308
+baseline_df,missing_rate_by_group,hosp,high_risk,1,17316,0.011203511203511204
+baseline_df,missing_rate_by_group,high_risk,high_risk,0,12055,0.0
+baseline_df,missing_rate_by_group,high_risk,high_risk,1,17316,0.0
+baseline_df,missing_rate_by_group,hhidpn,diabetes,0.0,20695,0.0
+baseline_df,missing_rate_by_group,hhidpn,diabetes,1.0,8358,0.0
+baseline_df,missing_rate_by_group,hhidpn,diabetes,3.0,3,0.0
+baseline_df,missing_rate_by_group,hhidpn,diabetes,4.0,169,0.0
+baseline_df,missing_rate_by_group,hhidpn,diabetes,5.0,15,0.0
+baseline_df,missing_rate_by_group,hhidpn,diabetes,6.0,59,0.0
+baseline_df,missing_rate_by_group,hhidpn,diabetes,nan,72,0.0
+baseline_df,missing_rate_by_group,wave,diabetes,0.0,20695,0.0
+baseline_df,missing_rate_by_group,wave,diabetes,1.0,8358,0.0
+baseline_df,missing_rate_by_group,wave,diabetes,3.0,3,0.0
+baseline_df,missing_rate_by_group,wave,diabetes,4.0,169,0.0
+baseline_df,missing_rate_by_group,wave,diabetes,5.0,15,0.0
+baseline_df,missing_rate_by_group,wave,diabetes,6.0,59,0.0
+baseline_df,missing_rate_by_group,wave,diabetes,nan,72,0.0
+baseline_df,missing_rate_by_group,age,diabetes,0.0,20695,0.0
+baseline_df,missing_rate_by_group,age,diabetes,1.0,8358,0.0
+baseline_df,missing_rate_by_group,age,diabetes,3.0,3,0.0
+baseline_df,missing_rate_by_group,age,diabetes,4.0,169,0.0
+baseline_df,missing_rate_by_group,age,diabetes,5.0,15,0.0
+baseline_df,missing_rate_by_group,age,diabetes,6.0,59,0.0
+baseline_df,missing_rate_by_group,age,diabetes,nan,72,0.0
+baseline_df,missing_rate_by_group,gender,diabetes,0.0,20695,0.0
+baseline_df,missing_rate_by_group,gender,diabetes,1.0,8358,0.0
+baseline_df,missing_rate_by_group,gender,diabetes,3.0,3,0.0
+baseline_df,missing_rate_by_group,gender,diabetes,4.0,169,0.0
+baseline_df,missing_rate_by_group,gender,diabetes,5.0,15,0.0
+baseline_df,missing_rate_by_group,gender,diabetes,6.0,59,0.0
+baseline_df,missing_rate_by_group,gender,diabetes,nan,72,0.0
+baseline_df,missing_rate_by_group,edu_years,diabetes,0.0,20695,0.00033824595312877505
+baseline_df,missing_rate_by_group,edu_years,diabetes,1.0,8358,0.00023929169657812874
+baseline_df,missing_rate_by_group,edu_years,diabetes,3.0,3,0.0
+baseline_df,missing_rate_by_group,edu_years,diabetes,4.0,169,0.0
+baseline_df,missing_rate_by_group,edu_years,diabetes,5.0,15,0.0
+baseline_df,missing_rate_by_group,edu_years,diabetes,6.0,59,0.0
+baseline_df,missing_rate_by_group,edu_years,diabetes,nan,72,0.0
+baseline_df,missing_rate_by_group,diabetes,diabetes,0.0,20695,0.0
+baseline_df,missing_rate_by_group,diabetes,diabetes,1.0,8358,0.0
+baseline_df,missing_rate_by_group,diabetes,diabetes,3.0,3,0.0
+baseline_df,missing_rate_by_group,diabetes,diabetes,4.0,169,0.0
+baseline_df,missing_rate_by_group,diabetes,diabetes,5.0,15,0.0
+baseline_df,missing_rate_by_group,diabetes,diabetes,6.0,59,0.0
+baseline_df,missing_rate_by_group,diabetes,diabetes,nan,72,1.0
+baseline_df,missing_rate_by_group,adl_any,diabetes,0.0,20695,0.0019328340178787146
+baseline_df,missing_rate_by_group,adl_any,diabetes,1.0,8358,0.0010768126346015793
+baseline_df,missing_rate_by_group,adl_any,diabetes,3.0,3,0.0
+baseline_df,missing_rate_by_group,adl_any,diabetes,4.0,169,0.0
+baseline_df,missing_rate_by_group,adl_any,diabetes,5.0,15,0.0
+baseline_df,missing_rate_by_group,adl_any,diabetes,6.0,59,0.0
+baseline_df,missing_rate_by_group,adl_any,diabetes,nan,72,0.0
+baseline_df,missing_rate_by_group,cesd,diabetes,0.0,20695,0.19395989369412903
+baseline_df,missing_rate_by_group,cesd,diabetes,1.0,8358,0.16798277099784636
+baseline_df,missing_rate_by_group,cesd,diabetes,3.0,3,0.0
+baseline_df,missing_rate_by_group,cesd,diabetes,4.0,169,0.07100591715976332
+baseline_df,missing_rate_by_group,cesd,diabetes,5.0,15,0.3333333333333333
+baseline_df,missing_rate_by_group,cesd,diabetes,6.0,59,0.0847457627118644
+baseline_df,missing_rate_by_group,cesd,diabetes,nan,72,0.6111111111111112
+baseline_df,missing_rate_by_group,hosp,diabetes,0.0,20695,0.010727228799226867
+baseline_df,missing_rate_by_group,hosp,diabetes,1.0,8358,0.011725293132328308
+baseline_df,missing_rate_by_group,hosp,diabetes,3.0,3,0.0
+baseline_df,missing_rate_by_group,hosp,diabetes,4.0,169,0.01775147928994083
+baseline_df,missing_rate_by_group,hosp,diabetes,5.0,15,0.0
+baseline_df,missing_rate_by_group,hosp,diabetes,6.0,59,0.0
+baseline_df,missing_rate_by_group,hosp,diabetes,nan,72,0.08333333333333333
+baseline_df,missing_rate_by_group,high_risk,diabetes,0.0,20695,0.0
+baseline_df,missing_rate_by_group,high_risk,diabetes,1.0,8358,0.0
+baseline_df,missing_rate_by_group,high_risk,diabetes,3.0,3,0.0
+baseline_df,missing_rate_by_group,high_risk,diabetes,4.0,169,0.0
+baseline_df,missing_rate_by_group,high_risk,diabetes,5.0,15,0.0
+baseline_df,missing_rate_by_group,high_risk,diabetes,6.0,59,0.0
+baseline_df,missing_rate_by_group,high_risk,diabetes,nan,72,0.0
+baseline_df,missing_rate_by_group,hhidpn,adl_any,0.0,18398,0.0
+baseline_df,missing_rate_by_group,hhidpn,adl_any,1.0,10924,0.0
+baseline_df,missing_rate_by_group,hhidpn,adl_any,nan,49,0.0
+baseline_df,missing_rate_by_group,wave,adl_any,0.0,18398,0.0
+baseline_df,missing_rate_by_group,wave,adl_any,1.0,10924,0.0
+baseline_df,missing_rate_by_group,wave,adl_any,nan,49,0.0
+baseline_df,missing_rate_by_group,age,adl_any,0.0,18398,0.0
+baseline_df,missing_rate_by_group,age,adl_any,1.0,10924,0.0
+baseline_df,missing_rate_by_group,age,adl_any,nan,49,0.0
+baseline_df,missing_rate_by_group,gender,adl_any,0.0,18398,0.0
+baseline_df,missing_rate_by_group,gender,adl_any,1.0,10924,0.0
+baseline_df,missing_rate_by_group,gender,adl_any,nan,49,0.0
+baseline_df,missing_rate_by_group,edu_years,adl_any,0.0,18398,0.00032612240460919666
+baseline_df,missing_rate_by_group,edu_years,adl_any,1.0,10924,0.00027462467960454045
+baseline_df,missing_rate_by_group,edu_years,adl_any,nan,49,0.0
+baseline_df,missing_rate_by_group,diabetes,adl_any,0.0,18398,0.0015762582889444505
+baseline_df,missing_rate_by_group,diabetes,adl_any,1.0,10924,0.003936287074331747
+baseline_df,missing_rate_by_group,diabetes,adl_any,nan,49,0.0
+baseline_df,missing_rate_by_group,adl_any,adl_any,0.0,18398,0.0
+baseline_df,missing_rate_by_group,adl_any,adl_any,1.0,10924,0.0
+baseline_df,missing_rate_by_group,adl_any,adl_any,nan,49,1.0
+baseline_df,missing_rate_by_group,cesd,adl_any,0.0,18398,0.07816066963800414
+baseline_df,missing_rate_by_group,cesd,adl_any,1.0,10924,0.36589161479311605
+baseline_df,missing_rate_by_group,cesd,adl_any,nan,49,1.0
+baseline_df,missing_rate_by_group,hosp,adl_any,0.0,18398,0.012501358843352538
+baseline_df,missing_rate_by_group,hosp,adl_any,1.0,10924,0.009062614426949835
+baseline_df,missing_rate_by_group,hosp,adl_any,nan,49,0.0
+baseline_df,missing_rate_by_group,high_risk,adl_any,0.0,18398,0.0
+baseline_df,missing_rate_by_group,high_risk,adl_any,1.0,10924,0.0
+baseline_df,missing_rate_by_group,high_risk,adl_any,nan,49,0.0
+reco_data,overall_missing_rate,hhidpn,ALL,ALL,29371,0.0
+reco_data,overall_missing_rate,wave,ALL,ALL,29371,0.0
+reco_data,overall_missing_rate,age,ALL,ALL,29371,0.0
+reco_data,overall_missing_rate,gender,ALL,ALL,29371,0.0
+reco_data,overall_missing_rate,edu_years,ALL,ALL,29371,0.00030642470464063194
+reco_data,overall_missing_rate,diabetes,ALL,ALL,29371,0.0024513976371250555
+reco_data,overall_missing_rate,adl_any,ALL,ALL,29371,0.0016683122808212182
+reco_data,overall_missing_rate,cesd,ALL,ALL,29371,0.18671478669435837
+reco_data,overall_missing_rate,hosp,ALL,ALL,29371,0.011201525314085322
+reco_data,overall_missing_rate,high_risk,ALL,ALL,29371,0.0
+reco_data,overall_missing_rate,risk_score,ALL,ALL,29371,0.0
+reco_data,overall_missing_rate,reco_list,ALL,ALL,29371,0.0
+reco_data,overall_missing_rate,reco_reason_list,ALL,ALL,29371,0.0
+reco_data,overall_missing_rate,top1,ALL,ALL,29371,0.0
+reco_data,overall_missing_rate,top2,ALL,ALL,29371,0.4104388682714242
+reco_data,overall_missing_rate,top3,ALL,ALL,29371,0.6281706445132954
+reco_data,overall_missing_rate,has_specific_reco,ALL,ALL,29371,0.0
+reco_data,overall_missing_rate,intervention_exposed,ALL,ALL,29371,0.0
+reco_data,overall_missing_rate,comparator_usual_referral,ALL,ALL,29371,0.0
+reco_data,overall_missing_rate,age_band,ALL,ALL,29371,0.0
+reco_data,missing_rate_by_group,hhidpn,gender,1,12851,0.0
+reco_data,missing_rate_by_group,hhidpn,gender,2,16520,0.0
+reco_data,missing_rate_by_group,wave,gender,1,12851,0.0
+reco_data,missing_rate_by_group,wave,gender,2,16520,0.0
+reco_data,missing_rate_by_group,age,gender,1,12851,0.0
+reco_data,missing_rate_by_group,age,gender,2,16520,0.0
+reco_data,missing_rate_by_group,gender,gender,1,12851,0.0
+reco_data,missing_rate_by_group,gender,gender,2,16520,0.0
+reco_data,missing_rate_by_group,edu_years,gender,1,12851,0.000466889736207299
+reco_data,missing_rate_by_group,edu_years,gender,2,16520,0.00018159806295399514
+reco_data,missing_rate_by_group,diabetes,gender,1,12851,0.002879153373278344
+reco_data,missing_rate_by_group,diabetes,gender,2,16520,0.00211864406779661
+reco_data,missing_rate_by_group,adl_any,gender,1,12851,0.0036573029336238426
+reco_data,missing_rate_by_group,adl_any,gender,2,16520,0.00012106537530266344
+reco_data,missing_rate_by_group,cesd,gender,1,12851,0.1869115243949887
+reco_data,missing_rate_by_group,cesd,gender,2,16520,0.18656174334140435
+reco_data,missing_rate_by_group,hosp,gender,1,12851,0.010115944284491479
+reco_data,missing_rate_by_group,hosp,gender,2,16520,0.012046004842615012
+reco_data,missing_rate_by_group,risk_score,gender,1,12851,0.0
+reco_data,missing_rate_by_group,risk_score,gender,2,16520,0.0
+reco_data,missing_rate_by_group,high_risk,gender,1,12851,0.0
+reco_data,missing_rate_by_group,high_risk,gender,2,16520,0.0
+reco_data,missing_rate_by_group,top1,gender,1,12851,0.0
+reco_data,missing_rate_by_group,top1,gender,2,16520,0.0
+reco_data,missing_rate_by_group,top2,gender,1,12851,0.4368531631779628
+reco_data,missing_rate_by_group,top2,gender,2,16520,0.3898910411622276
+reco_data,missing_rate_by_group,top3,gender,1,12851,0.646331024822971
+reco_data,missing_rate_by_group,top3,gender,2,16520,0.6140435835351089
+reco_data,missing_rate_by_group,reco_list,gender,1,12851,0.0
+reco_data,missing_rate_by_group,reco_list,gender,2,16520,0.0
+reco_data,missing_rate_by_group,reco_reason_list,gender,1,12851,0.0
+reco_data,missing_rate_by_group,reco_reason_list,gender,2,16520,0.0
+reco_data,missing_rate_by_group,has_specific_reco,gender,1,12851,0.0
+reco_data,missing_rate_by_group,has_specific_reco,gender,2,16520,0.0
+reco_data,missing_rate_by_group,intervention_exposed,gender,1,12851,0.0
+reco_data,missing_rate_by_group,intervention_exposed,gender,2,16520,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,gender,1,12851,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,gender,2,16520,0.0
+reco_data,missing_rate_by_group,hhidpn,age_band,"[65, 70)",5583,0.0
+reco_data,missing_rate_by_group,hhidpn,age_band,"[70, 75)",5411,0.0
+reco_data,missing_rate_by_group,hhidpn,age_band,"[75, 80)",5235,0.0
+reco_data,missing_rate_by_group,hhidpn,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,hhidpn,age_band,"[85, 200)",7679,0.0
+reco_data,missing_rate_by_group,wave,age_band,"[65, 70)",5583,0.0
+reco_data,missing_rate_by_group,wave,age_band,"[70, 75)",5411,0.0
+reco_data,missing_rate_by_group,wave,age_band,"[75, 80)",5235,0.0
+reco_data,missing_rate_by_group,wave,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,wave,age_band,"[85, 200)",7679,0.0
+reco_data,missing_rate_by_group,age,age_band,"[65, 70)",5583,0.0
+reco_data,missing_rate_by_group,age,age_band,"[70, 75)",5411,0.0
+reco_data,missing_rate_by_group,age,age_band,"[75, 80)",5235,0.0
+reco_data,missing_rate_by_group,age,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,age,age_band,"[85, 200)",7679,0.0
+reco_data,missing_rate_by_group,gender,age_band,"[65, 70)",5583,0.0
+reco_data,missing_rate_by_group,gender,age_band,"[70, 75)",5411,0.0
+reco_data,missing_rate_by_group,gender,age_band,"[75, 80)",5235,0.0
+reco_data,missing_rate_by_group,gender,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,gender,age_band,"[85, 200)",7679,0.0
+reco_data,missing_rate_by_group,edu_years,age_band,"[65, 70)",5583,0.0007164606842199534
+reco_data,missing_rate_by_group,edu_years,age_band,"[70, 75)",5411,0.00018480872297172427
+reco_data,missing_rate_by_group,edu_years,age_band,"[75, 80)",5235,0.00038204393505253105
+reco_data,missing_rate_by_group,edu_years,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,edu_years,age_band,"[85, 200)",7679,0.0002604505795025394
+reco_data,missing_rate_by_group,diabetes,age_band,"[65, 70)",5583,0.004298764105319721
+reco_data,missing_rate_by_group,diabetes,age_band,"[70, 75)",5411,0.00129366106080207
+reco_data,missing_rate_by_group,diabetes,age_band,"[75, 80)",5235,0.0019102196752626551
+reco_data,missing_rate_by_group,diabetes,age_band,"[80, 85)",5463,0.0014643968515467693
+reco_data,missing_rate_by_group,diabetes,age_band,"[85, 200)",7679,0.0029951816642792032
+reco_data,missing_rate_by_group,adl_any,age_band,"[65, 70)",5583,0.005194339960594662
+reco_data,missing_rate_by_group,adl_any,age_band,"[70, 75)",5411,0.0031417482905193124
+reco_data,missing_rate_by_group,adl_any,age_band,"[75, 80)",5235,0.00019102196752626553
+reco_data,missing_rate_by_group,adl_any,age_band,"[80, 85)",5463,0.00018304960644334616
+reco_data,missing_rate_by_group,adl_any,age_band,"[85, 200)",7679,0.0001302252897512697
+reco_data,missing_rate_by_group,cesd,age_band,"[65, 70)",5583,0.08507970625111946
+reco_data,missing_rate_by_group,cesd,age_band,"[70, 75)",5411,0.10940676399926076
+reco_data,missing_rate_by_group,cesd,age_band,"[75, 80)",5235,0.15606494746895894
+reco_data,missing_rate_by_group,cesd,age_band,"[80, 85)",5463,0.19348343401061688
+reco_data,missing_rate_by_group,cesd,age_band,"[85, 200)",7679,0.3311629118374788
+reco_data,missing_rate_by_group,hosp,age_band,"[65, 70)",5583,0.011463370947519255
+reco_data,missing_rate_by_group,hosp,age_band,"[70, 75)",5411,0.008501201256699316
+reco_data,missing_rate_by_group,hosp,age_band,"[75, 80)",5235,0.010888252148997135
+reco_data,missing_rate_by_group,hosp,age_band,"[80, 85)",5463,0.01043382756727073
+reco_data,missing_rate_by_group,hosp,age_band,"[85, 200)",7679,0.013673655423883319
+reco_data,missing_rate_by_group,risk_score,age_band,"[65, 70)",5583,0.0
+reco_data,missing_rate_by_group,risk_score,age_band,"[70, 75)",5411,0.0
+reco_data,missing_rate_by_group,risk_score,age_band,"[75, 80)",5235,0.0
+reco_data,missing_rate_by_group,risk_score,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,risk_score,age_band,"[85, 200)",7679,0.0
+reco_data,missing_rate_by_group,high_risk,age_band,"[65, 70)",5583,0.0
+reco_data,missing_rate_by_group,high_risk,age_band,"[70, 75)",5411,0.0
+reco_data,missing_rate_by_group,high_risk,age_band,"[75, 80)",5235,0.0
+reco_data,missing_rate_by_group,high_risk,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,high_risk,age_band,"[85, 200)",7679,0.0
+reco_data,missing_rate_by_group,top1,age_band,"[65, 70)",5583,0.0
+reco_data,missing_rate_by_group,top1,age_band,"[70, 75)",5411,0.0
+reco_data,missing_rate_by_group,top1,age_band,"[75, 80)",5235,0.0
+reco_data,missing_rate_by_group,top1,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,top1,age_band,"[85, 200)",7679,0.0
+reco_data,missing_rate_by_group,top2,age_band,"[65, 70)",5583,0.5027762851513523
+reco_data,missing_rate_by_group,top2,age_band,"[70, 75)",5411,0.47625207909813344
+reco_data,missing_rate_by_group,top2,age_band,"[75, 80)",5235,0.42234957020057307
+reco_data,missing_rate_by_group,top2,age_band,"[80, 85)",5463,0.3836719751052535
+reco_data,missing_rate_by_group,top2,age_band,"[85, 200)",7679,0.3078525849720016
+reco_data,missing_rate_by_group,top3,age_band,"[65, 70)",5583,0.7264911337990327
+reco_data,missing_rate_by_group,top3,age_band,"[70, 75)",5411,0.6880428756237295
+reco_data,missing_rate_by_group,top3,age_band,"[75, 80)",5235,0.6309455587392551
+reco_data,missing_rate_by_group,top3,age_band,"[80, 85)",5463,0.5950942705473183
+reco_data,missing_rate_by_group,top3,age_band,"[85, 200)",7679,0.5361375179059773
+reco_data,missing_rate_by_group,reco_list,age_band,"[65, 70)",5583,0.0
+reco_data,missing_rate_by_group,reco_list,age_band,"[70, 75)",5411,0.0
+reco_data,missing_rate_by_group,reco_list,age_band,"[75, 80)",5235,0.0
+reco_data,missing_rate_by_group,reco_list,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,reco_list,age_band,"[85, 200)",7679,0.0
+reco_data,missing_rate_by_group,reco_reason_list,age_band,"[65, 70)",5583,0.0
+reco_data,missing_rate_by_group,reco_reason_list,age_band,"[70, 75)",5411,0.0
+reco_data,missing_rate_by_group,reco_reason_list,age_band,"[75, 80)",5235,0.0
+reco_data,missing_rate_by_group,reco_reason_list,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,reco_reason_list,age_band,"[85, 200)",7679,0.0
+reco_data,missing_rate_by_group,has_specific_reco,age_band,"[65, 70)",5583,0.0
+reco_data,missing_rate_by_group,has_specific_reco,age_band,"[70, 75)",5411,0.0
+reco_data,missing_rate_by_group,has_specific_reco,age_band,"[75, 80)",5235,0.0
+reco_data,missing_rate_by_group,has_specific_reco,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,has_specific_reco,age_band,"[85, 200)",7679,0.0
+reco_data,missing_rate_by_group,intervention_exposed,age_band,"[65, 70)",5583,0.0
+reco_data,missing_rate_by_group,intervention_exposed,age_band,"[70, 75)",5411,0.0
+reco_data,missing_rate_by_group,intervention_exposed,age_band,"[75, 80)",5235,0.0
+reco_data,missing_rate_by_group,intervention_exposed,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,intervention_exposed,age_band,"[85, 200)",7679,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,age_band,"[65, 70)",5583,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,age_band,"[70, 75)",5411,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,age_band,"[75, 80)",5235,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,age_band,"[80, 85)",5463,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,age_band,"[85, 200)",7679,0.0
+reco_data,missing_rate_by_group,hhidpn,high_risk,0,12055,0.0
+reco_data,missing_rate_by_group,hhidpn,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,wave,high_risk,0,12055,0.0
+reco_data,missing_rate_by_group,wave,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,age,high_risk,0,12055,0.0
+reco_data,missing_rate_by_group,age,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,gender,high_risk,0,12055,0.0
+reco_data,missing_rate_by_group,gender,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,edu_years,high_risk,0,12055,0.00033181252592285357
+reco_data,missing_rate_by_group,edu_years,high_risk,1,17316,0.00028875028875028876
+reco_data,missing_rate_by_group,diabetes,high_risk,0,12055,0.0024056408129406884
+reco_data,missing_rate_by_group,diabetes,high_risk,1,17316,0.002483252483252483
+reco_data,missing_rate_by_group,adl_any,high_risk,0,12055,0.0033181252592285357
+reco_data,missing_rate_by_group,adl_any,high_risk,1,17316,0.0005197505197505198
+reco_data,missing_rate_by_group,cesd,high_risk,0,12055,0.09655744504355039
+reco_data,missing_rate_by_group,cesd,high_risk,1,17316,0.2494802494802495
+reco_data,missing_rate_by_group,hosp,high_risk,0,12055,0.011198672749896308
+reco_data,missing_rate_by_group,hosp,high_risk,1,17316,0.011203511203511204
+reco_data,missing_rate_by_group,risk_score,high_risk,0,12055,0.0
+reco_data,missing_rate_by_group,risk_score,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,high_risk,high_risk,0,12055,0.0
+reco_data,missing_rate_by_group,high_risk,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,top1,high_risk,0,12055,0.0
+reco_data,missing_rate_by_group,top1,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,top2,high_risk,0,12055,1.0
+reco_data,missing_rate_by_group,top2,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,top3,high_risk,0,12055,1.0
+reco_data,missing_rate_by_group,top3,high_risk,1,17316,0.3693116193116193
+reco_data,missing_rate_by_group,reco_list,high_risk,0,12055,0.0
+reco_data,missing_rate_by_group,reco_list,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,reco_reason_list,high_risk,0,12055,0.0
+reco_data,missing_rate_by_group,reco_reason_list,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,has_specific_reco,high_risk,0,12055,0.0
+reco_data,missing_rate_by_group,has_specific_reco,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,intervention_exposed,high_risk,0,12055,0.0
+reco_data,missing_rate_by_group,intervention_exposed,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,high_risk,0,12055,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,high_risk,1,17316,0.0
+reco_data,missing_rate_by_group,hhidpn,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,hhidpn,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,hhidpn,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,hhidpn,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,hhidpn,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,hhidpn,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,hhidpn,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,wave,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,wave,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,wave,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,wave,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,wave,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,wave,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,wave,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,age,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,age,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,age,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,age,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,age,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,age,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,age,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,gender,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,gender,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,gender,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,gender,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,gender,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,gender,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,gender,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,edu_years,diabetes,0.0,20695,0.00033824595312877505
+reco_data,missing_rate_by_group,edu_years,diabetes,1.0,8358,0.00023929169657812874
+reco_data,missing_rate_by_group,edu_years,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,edu_years,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,edu_years,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,edu_years,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,edu_years,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,diabetes,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,diabetes,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,diabetes,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,diabetes,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,diabetes,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,diabetes,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,diabetes,diabetes,nan,72,1.0
+reco_data,missing_rate_by_group,adl_any,diabetes,0.0,20695,0.0019328340178787146
+reco_data,missing_rate_by_group,adl_any,diabetes,1.0,8358,0.0010768126346015793
+reco_data,missing_rate_by_group,adl_any,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,adl_any,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,adl_any,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,adl_any,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,adl_any,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,cesd,diabetes,0.0,20695,0.19395989369412903
+reco_data,missing_rate_by_group,cesd,diabetes,1.0,8358,0.16798277099784636
+reco_data,missing_rate_by_group,cesd,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,cesd,diabetes,4.0,169,0.07100591715976332
+reco_data,missing_rate_by_group,cesd,diabetes,5.0,15,0.3333333333333333
+reco_data,missing_rate_by_group,cesd,diabetes,6.0,59,0.0847457627118644
+reco_data,missing_rate_by_group,cesd,diabetes,nan,72,0.6111111111111112
+reco_data,missing_rate_by_group,hosp,diabetes,0.0,20695,0.010727228799226867
+reco_data,missing_rate_by_group,hosp,diabetes,1.0,8358,0.011725293132328308
+reco_data,missing_rate_by_group,hosp,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,hosp,diabetes,4.0,169,0.01775147928994083
+reco_data,missing_rate_by_group,hosp,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,hosp,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,hosp,diabetes,nan,72,0.08333333333333333
+reco_data,missing_rate_by_group,risk_score,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,risk_score,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,risk_score,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,risk_score,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,risk_score,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,risk_score,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,risk_score,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,high_risk,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,high_risk,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,high_risk,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,high_risk,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,high_risk,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,high_risk,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,high_risk,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,top1,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,top1,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,top1,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,top1,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,top1,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,top1,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,top1,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,top2,diabetes,0.0,20695,0.5811065474752356
+reco_data,missing_rate_by_group,top2,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,top2,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,top2,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,top2,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,top2,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,top2,diabetes,nan,72,0.4027777777777778
+reco_data,missing_rate_by_group,top3,diabetes,0.0,20695,0.7475718772650398
+reco_data,missing_rate_by_group,top3,diabetes,1.0,8358,0.34003350083752093
+reco_data,missing_rate_by_group,top3,diabetes,3.0,3,0.6666666666666666
+reco_data,missing_rate_by_group,top3,diabetes,4.0,169,0.3905325443786982
+reco_data,missing_rate_by_group,top3,diabetes,5.0,15,0.26666666666666666
+reco_data,missing_rate_by_group,top3,diabetes,6.0,59,0.3220338983050847
+reco_data,missing_rate_by_group,top3,diabetes,nan,72,0.6388888888888888
+reco_data,missing_rate_by_group,reco_list,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,reco_list,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,reco_list,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,reco_list,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,reco_list,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,reco_list,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,reco_list,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,reco_reason_list,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,reco_reason_list,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,reco_reason_list,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,reco_reason_list,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,reco_reason_list,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,reco_reason_list,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,reco_reason_list,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,has_specific_reco,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,has_specific_reco,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,has_specific_reco,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,has_specific_reco,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,has_specific_reco,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,has_specific_reco,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,has_specific_reco,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,intervention_exposed,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,intervention_exposed,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,intervention_exposed,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,intervention_exposed,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,intervention_exposed,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,intervention_exposed,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,intervention_exposed,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,diabetes,0.0,20695,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,diabetes,1.0,8358,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,diabetes,3.0,3,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,diabetes,4.0,169,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,diabetes,5.0,15,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,diabetes,6.0,59,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,diabetes,nan,72,0.0
+reco_data,missing_rate_by_group,hhidpn,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,hhidpn,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,hhidpn,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,wave,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,wave,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,wave,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,age,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,age,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,age,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,gender,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,gender,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,gender,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,edu_years,adl_any,0.0,18398,0.00032612240460919666
+reco_data,missing_rate_by_group,edu_years,adl_any,1.0,10924,0.00027462467960454045
+reco_data,missing_rate_by_group,edu_years,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,diabetes,adl_any,0.0,18398,0.0015762582889444505
+reco_data,missing_rate_by_group,diabetes,adl_any,1.0,10924,0.003936287074331747
+reco_data,missing_rate_by_group,diabetes,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,adl_any,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,adl_any,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,adl_any,adl_any,nan,49,1.0
+reco_data,missing_rate_by_group,cesd,adl_any,0.0,18398,0.07816066963800414
+reco_data,missing_rate_by_group,cesd,adl_any,1.0,10924,0.36589161479311605
+reco_data,missing_rate_by_group,cesd,adl_any,nan,49,1.0
+reco_data,missing_rate_by_group,hosp,adl_any,0.0,18398,0.012501358843352538
+reco_data,missing_rate_by_group,hosp,adl_any,1.0,10924,0.009062614426949835
+reco_data,missing_rate_by_group,hosp,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,risk_score,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,risk_score,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,risk_score,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,high_risk,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,high_risk,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,high_risk,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,top1,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,top1,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,top1,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,top2,adl_any,0.0,18398,0.6530601152299162
+reco_data,missing_rate_by_group,top2,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,top2,adl_any,nan,49,0.8163265306122449
+reco_data,missing_rate_by_group,top3,adl_any,0.0,18398,0.8617241004457006
+reco_data,missing_rate_by_group,top3,adl_any,1.0,10924,0.2334309776638594
+reco_data,missing_rate_by_group,top3,adl_any,nan,49,0.9387755102040817
+reco_data,missing_rate_by_group,reco_list,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,reco_list,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,reco_list,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,reco_reason_list,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,reco_reason_list,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,reco_reason_list,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,has_specific_reco,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,has_specific_reco,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,has_specific_reco,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,intervention_exposed,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,intervention_exposed,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,intervention_exposed,adl_any,nan,49,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,adl_any,0.0,18398,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,adl_any,1.0,10924,0.0
+reco_data,missing_rate_by_group,comparator_usual_referral,adl_any,nan,49,0.0
