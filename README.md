@@ -64,11 +64,21 @@ Manuscript drafts and supporting materials.
 
 ## 📌 Reproducibility
 
+This project uses data from the Health and Retirement Study (HRS).
+
+The RAND HRS Longitudinal File (1992–2022) can be obtained from:
+
+🔗 https://hrsdata.isr.umich.edu/data-products/rand
+
+Access requires registration and agreement to HRS data use terms.
+
 To reproduce the analysis:
 
-1. Obtain HRS RAND data (1992–2022)
-2. Place `.dta` file inside `data_raw/`
+1. Download the RAND HRS longitudinal dataset (1992–2022)
+2. Place the `.dta` file inside the `data_raw/` directory
 3. Run notebooks sequentially (00 → 04)
+
+Note: Raw data are not included in this repository due to licensing restrictions.
 
 ---
 
