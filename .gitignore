@@ -1,6 +1,12 @@
 data_raw/
+data_processed/
+
 *.zip
 *.dta
+*.pdf
 *.log
+
 __pycache__/
 .ipynb_checkpoints/
+.vscode/
+.DS_Store
