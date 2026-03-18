@@ -2,7 +2,8 @@ Variable,Value
 Mean age (years),78.39
 Female,56.2%
 Male,43.8%
-Mean years of education,2.95
+Mean education level (coded 1–5),2.95
 Any ADL limitation,37.3%
 Diabetes,32.3%
-Depressive symptoms,62.1%
+Depressive symptoms,19.0%
+Prior hospitalisation,40.8%
